@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="CentralparkSanitySuiteGS">
+
+	<test name="CentralparkSanityTestGS">
+		<parameter name="test_category" value="NonGS" />
+		<classes>
+
+		 
+		
+
+							<!-- Final Scripts of GS	  	 	   -->
+							<class name="com.innroad.inncenter.tests.GSRoomStatusVerification"/>
+                            <class name="com.innroad.inncenter.tests.GSVerifyReservationTask"/>
+                            <class name="com.innroad.inncenter.tests.GSVerifyArrivalDueScenarios"/>
+                            <class name="com.innroad.inncenter.tests.GSVerifyRoomConditionAndBulkUpdate"/>
+                            <class name="com.innroad.inncenter.tests.VerifyDirtyStatusMRBReservation"/>
+                            <class name="com.innroad.inncenter.tests.GS_RoomStatus_Sorting_Report"/>
+                             <class name="com.innroad.inncenter.tests.GSRoomStatusTaskListVerifyReport" />
+                           <class name="com.innroad.inncenter.tests.GSTaskListVerifyDeleteUpdateTask"/>
+                            <class name="com.innroad.inncenter.tests.GSVerifyAutoTaskWhileScheduleIsInactiveOrDelete"/>
+                            <class name="com.innroad.inncenter.tests.GSRoomMaintenanceVerifyTapeChartAndRoomStatus"/>
+                            <class name="com.innroad.inncenter.tests.GSVerifyArrivalDueAndAutoTaskForGroupReservation"/>
+                            <class name="com.innroad.inncenter.tests.GSVerifyRoomClass"/>
+                            <class name="com.innroad.inncenter.tests.GSVerifyQuickStats_RS_TL"/>
+                            	<!-- To execute below script use client which has two property like autopay -->
+                        <class name="com.innroad.inncenter.tests.VerifyNavigationGS"/> 
+                        	<class name="com.innroad.inncenter.tests.GSTaskListVerifyFilters"/> 
+                            <class name="com.innroad.inncenter.tests.GSVerifyReservationCreatedTask"/> 
+                             	  
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

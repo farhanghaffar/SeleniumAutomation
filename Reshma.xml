@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CentralparkGroupSuite" parallel="classes" thread-count="1">
+	
+	  <test name="CentralparkGroupTest">
+
+        <classes>    
+     
+       
+             
+          <!-- Accounts --> 
+        
+          	<class name="com.innroad.inncenter.tests.Create_CorpAccAnd_Associate" />
+           
+     
+       	 	
+       	 	<!-- Sanity -->
+     	
+       	<!--
+       	 	<class name="com.innroad.inncenter.tests.VerifyPaymentDetailsNotRetained" />
+       	 	<class name="com.innroad.inncenter.tests.VerifyOverbookingErrorMsgAtCheckIn" />
+       	 	<class name="com.innroad.inncenter.tests.VerifyOverbookingMsgSplitRes" />
+       	 	<class name="com.innroad.inncenter.tests.Verify_AddPostRollBackVoid_FolioLineItems" />
+       	 	<class name="com.innroad.inncenter.tests.VerifyNoShowCPReservationMRB" />
+       	 	<class name="com.innroad.inncenter.tests.VerifyReservationPaymentViaAnotherReservation" />
+       	 	<class name="com.innroad.inncenter.tests.Create_CP_MRB_Reservation" />
+            <class name="com.innroad.inncenter.tests.Verify_CP_Payments" />
+       	 	<class name="com.innroad.inncenter.tests.Verify_CP_Card_Payments" />
+       	 	<class name="com.innroad.inncenter.tests.CP_CreateReservationWithManualOverride" />
+       	 	<class name="com.innroad.inncenter.tests.CP_CreateReservationWithBestAvailableRateplan" />
+       	 	<class name="com.innroad.inncenter.tests.CreateEditDeleteFolio" />
+       	 	<class name="com.innroad.inncenter.tests.Create_CP_MRB_SplitReservation" />
+       	 	<class name="com.innroad.inncenter.tests.Verify_Folio" />
+       	 	<class name="com.innroad.inncenter.tests.Create_TravelAgent_Account" />
+       	 	<class name="com.innroad.inncenter.tests.CreateAssignedReservationFromTapeChartAndVerifyScheduling" />
+       	 	<class name="com.innroad.inncenter.tests.CreateUnassignedReservationFromTapeChart" />
+       	 	<class name="com.innroad.inncenter.tests.VerifyCopyReservationFunctionality" />
+       	 	<class name="com.innroad.inncenter.tests.CreateUnitOwnerAccAndVerifyPayByAccounttInReservation" />
+       	 	<class name="com.innroad.inncenter.tests.Verify_AccountNotes_Reservation" />
+       -->
+          <!-- ReservationV2 -->
+<!--
+	      <class name="com.innroad.inncenter.tests.VerifyRefundPaymentWithValidCCMethodsUsingNoGateway" />
+	      <class name="com.innroad.inncenter.tests.VerifyAuthorisePaymentLineItemForDifferentReservationsUsingPaymoverGateWay" />
+		  <class name="com.innroad.inncenter.tests.VerifyMovingCapturedLineItemFromPrimaryToSecondaryGuestFolio" />
+          <class name="com.innroad.inncenter.tests.VerifyUserAbleToDoCaptureAndAuthorizationWithTakePaymentButtonUsingPEGateway" />
+          <class name="com.innroad.inncenter.tests.VerifyQuoteFunctionalityByEditingTheGuestInfo" />
+         <class name="com.innroad.inncenter.tests.VerifyHistoryAfterUpdatingTheRoomNumberByEditingStayInfo" />
+         <class name="com.innroad.inncenter.tests.VerifyMRBIfSecondaryGuestCheckedInCheckInAllButtonDisabled" /> 
+        <class name="com.innroad.inncenter.tests.VerifyWhenResrvationIsLockedUserNotAbleToChangeAssignRoomNumber" />
+	-->	
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

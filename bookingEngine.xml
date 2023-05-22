@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CentralparkSanityMasterSuite" parallel="classes" thread-count="1">
+	
+	  <test name="CentralparkSanityMasterTest">
+
+        <classes>
+        
+      		 <class name="com.innroad.inncenter.tests.VerifyRulesInNewBookingEngine"/> <!-- AUTOMATION-2149 -->
+             <class name="com.innroad.inncenter.tests.VerifyAvailabilityInBookingEngine"/>  <!-- AUTOMATION-1994 -->
+      		 
+             <class name="com.innroad.inncenter.tests.CreateReservationFromNewBookingEngineAndVerifyTheReservationInInncenter"/>  <!-- AUTOMATION-1986 -->
+             <class name="com.innroad.inncenter.tests.VerifyVisibilityScenariosInAvailabilityGridOfBookingEngine"/>   <!-- AUTOMATION-2101 -->
+        	 <class name="com.innroad.inncenter.tests.VerifyAllRulesScenariosInNBE"/> <!-- AUTOMATION-2149+1994 -->
+        	 
+        	 
+        	 
+       		 <class name="com.innroad.inncenter.tests.VerifyRatePlanConditionsAndProductsInNewBookingEngine"/> <!-- AUTOMATION-2012 -->
+        	 <class name="com.innroad.inncenter.tests.VerifyAddOnInBookingEngine"/> <!-- AUTOMATION-2149 -->
+  			 <class name="com.innroad.inncenter.tests.VerifyProductsInBEAndInncenterAfterChangeStayDetails"/>  <!-- AUTOMATION-2174 -->  
+  			 
+  			     
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

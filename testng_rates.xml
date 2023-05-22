@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CentralParkSanitySuite_Rates">
+	
+	<test name="CentralParkSanityTest_Rates">
+		<parameter name="test_category" value="NonGS" />
+		<classes>
+			
+					
+			
+	<!--  				
+			 <class name="com.innroad.inncenter.tests.VerifyNewBaseRateCreation" />
+		 	 <class name="com.innroad.inncenter.tests.RateV2RateGridBulkUpdateRateUIVerification" />
+			<class name="com.innroad.inncenter.tests.RateV2RateGridBulkUpdateRateFunctionality" />
+			<class name="com.innroad.inncenter.tests.VerifyNewBaseRateCreation" />											
+			<class name="com.innroad.inncenter.tests.CreateNightlyRatePlanV2" />
+	 	 	  <class name="com.innroad.inncenter.tests.RateGrid_Verification" />
+	 	 	  <class name="com.innroad.inncenter.tests.CreateAndEditRatePlanV2" />
+	 	 	   <class name="com.innroad.inncenter.tests.ValidateNightlyRatePlanV2" />
+	 	 	  	 	 	
+			<class name="com.innroad.inncenter.tests.RateV2BulkUpdateRatesAllInnCenterReservations" />
+					<class name="com.innroad.inncenter.tests.RateV2BulkUpdateRatesForGroupReservations" />-->
+	 	 	  	 	 	  <!-- Aqsa-1709 -->
+	 	 	<!--    <class name="com.innroad.inncenter.tests.Create_BE_Res" />
+	 	 	  	  <class name="com.innroad.inncenter.tests.VerificationOfAvailabilityInRatesV2ExpediaReservationFromBE" />
+ 	 	  	 	  <class name="com.innroad.inncenter.tests.VerificationOfAvailabilityInRatesV2GroupReservationFromBE" />
+	 	 	  	  <class name="com.innroad.inncenter.tests.VerificationOfAvailabilityInRatesV2MultipleRoomReservationFromBE" />
+						<class name="com.innroad.inncenter.tests.CreateProduct" />
+					<class name="com.innroad.inncenter.tests.CreateModifyDeleteProduct" />
+	 	 	  	  
+	 	 	  	  --> 	
+					
+						<class name="com.innroad.inncenter.tests.VerifyTaxesInCPReservation" />
+					<class name="com.innroad.inncenter.tests.VerifyTaxExemptInCPReservation" />
+						<class name="com.innroad.inncenter.tests.VerifyTaxAmountRoundOffMRB" />
+					<class name="com.innroad.inncenter.tests.VerifyTaxesOnPackageInCPRes" />
+						<class name="com.innroad.inncenter.tests.VerifyDepositDueInMRBAfterTaxExempt" />
+					<class name="com.innroad.inncenter.tests.TaxExemptInDepositAmountInRes" />
+					
+	 	 	  	 	 	  
+	 	 	  	 	 		 	 
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+

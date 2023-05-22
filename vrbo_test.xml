@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CentralparkSanitySuite">
+    
+    <test name="CentralparkSanityTest">
+        <parameter name="test_category" value="NonGS" />
+        <classes>
+		   
+	 
+
+						<!--  <class name="com.innroad.inncenter.tests.VerifyBusXML" /> 
+                       <class name="com.innroad.inncenter.tests.VerifyDerivedRateOnVrbo" />
+                        <class name="com.innroad.inncenter.tests.VerifyDerivedRateOnVrboAfterUpdateBaseRate" />
+                        <class name="com.innroad.inncenter.tests.VerifyDerivedRateInactive" />
+                        <class name="com.innroad.inncenter.tests.VerifyBookingRequestTaxs" />
+                        <class name="com.innroad.inncenter.tests.VerifyBookingRequestBlackOut" />
+                        <class name="com.innroad.inncenter.tests.VerifyNighlyRatesOnVrBo" /> -->
+                        <class name="com.innroad.inncenter.tests.VerifyTaxesAndFeeOnVrbo" /> 
+                        
+    </classes>			
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

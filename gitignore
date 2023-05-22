@@ -1,0 +1,8 @@
+!*.exe
+#ignore folder
+test-output/
+log/
+extent-reports/archived/
+externalFiles/downloadFiles/
+externalFiles/downloadFiles/debug.log
+target/

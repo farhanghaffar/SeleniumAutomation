@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="FailedSkippedScriptsSuite" parallel="classes">
+  <parameter name="test_category" value="NonGS"/>
+  <parameter name="env" value="https://app.qainnroad.com/"/>
+  <listeners>
+    <listener class-name="com.innroad.inncenter.listeners.EnvReaderListener"/>
+    <listener class-name="com.innroad.inncenter.utils.RetryListenerClass"/>
+    <listener class-name="com.innroad.inncenter.listeners.TestListener"/>
+  </listeners>
+  <test name="FailedSkippedScriptsTest">
+    <classes>
+      <class name="com.innroad.inncenter.tests.VerificationOfAvailabilityInRatesV2GroupReservationFromBE"/>
+    </classes>
+  </test> <!-- FailedSkippedScriptsTest -->
+</suite> <!-- FailedSkippedScriptsSuite -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InnCenterRegressionSuiteGroups">
+	
+	<test name="InnCenterRegressionSuiteNonGS">
+		<parameter name="test_category" value="NonGS" />
+		<classes>
+		
+			 <class name="com.innroad.inncenter.tests.VerifyAdvGroupWithEditBlockAndTaxExempt" /> 
+			 <class name="com.innroad.inncenter.tests.VerifyAdvGroupsWithExtendedReservation" />
+			 <class name="com.innroad.inncenter.tests.AssignRooms_in_SelectRooms" />
+			 <class name="com.innroad.inncenter.tests.VerifyGroupsWithPaymentFrmAdvanceDepositLink" />
+			 <class name="com.innroad.inncenter.tests.ChangeCountryInGroupFolioBillingPopUpAndVerify" />
+
+			 <!-- <class name="com.innroad.inncenter.tests.VerifyAdvanceGroupMRBReservation" /> 
+			 <class name="com.innroad.inncenter.tests.VerifyAbleToCreateGroupReservationWithBlueBookIcon" />
+			 <class name="com.innroad.inncenter.tests.VerifyAbleToCreateGroupReservationWithYellowBookIcon" />
+			 <class name="com.innroad.inncenter.tests.VerifyAbleToCreateGroupReservationWithRedBookIcon" />
+			 <class name="com.innroad.inncenter.tests.VerifyAbleToCreateAssignedGroupReservationFromBlueBookIconAndCheckIn" />
+			 <class name="com.innroad.inncenter.tests.CreateAReservationFromRoomingListAndVerifyCheckInButton" />
+			 -->
+			
+			 <!-- <class name="com.innroad.inncenter.tests.VerifyLineItemsByAddingAndVoidingForGroupFolio" />		
+			<class name="com.innroad.inncenter.tests.VerifyGroupAccountFolioByMakingPayments" />  
+			<class name="com.innroad.inncenter.tests.VerifyGroupAccFolioByVoidingPaymentsAndLineItems" />	 			
+			<class name="com.innroad.inncenter.tests.VoidingAdvanceDeposit_GroupFolio" />				
+			<class name="com.innroad.inncenter.tests.ChangeCountryStateInRoomingListAndVerifyForGroup" />				
+			<class name="com.innroad.inncenter.tests.VerifyPickUpBlockFromRoomingList"/>
+			 -->
+			<!-- <class name="com.innroad.inncenter.tests.CreatePrePostShoulderResChargeRoutingEnable" /> -->
+			<class name="com.innroad.inncenter.tests.VerifyPickUpBlockFromRoomingList"/>
+		
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+

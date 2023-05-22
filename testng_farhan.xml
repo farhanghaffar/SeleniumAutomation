@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CentralparkSanityMasterSuite" parallel="classes" thread-count="1">
+	
+	  <test name="CentralparkSanityMasterTest">
+
+        <classes>            
+		 
+		    
+		   <class name="com.innroad.inncenter.tests.VerifyBulkCancel" />
+		    
+		    <class name="com.innroad.inncenter.tests.CreateUnassignedReservationFromTapeChartANDAssignRoomNumber" />
+		    
+		    <class name="com.innroad.inncenter.tests.VerifyFolioActions" />
+		    
+		    <class name="com.innroad.inncenter.tests.VerifyFolioComponentActions" />
+		    <class name="com.innroad.inncenter.tests.VerifyPolicyEffectsOnReservations" />
+		    
+	   
+
+
+	   
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

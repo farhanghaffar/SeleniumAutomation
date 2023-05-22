@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="CentralparkSanitySuiteGS">
+
+	<test name="CentralparkSanityTestGS">
+		<parameter name="test_category" value="NonGS" />
+		<classes>
+		
+		<!-- GS Cases -->
+ 		 <class name="com.innroad.inncenter.tests.GSRoomMaintenanceVerifyTapeChartAndRoomStatus"/> 
+		 <class name="com.innroad.inncenter.tests.GSTaskListVerifyDeleteUpdateTask"/> 
+		 <class name="com.innroad.inncenter.tests.GSRoomStatusTaskListVerifyReport" /> 
+		 <class name="com.innroad.inncenter.tests.GS_RoomStatus_Sorting_Report"/> 
+		 <class name="com.innroad.inncenter.tests.VerifyDirtyStatusMRBReservation"/> 		 
+		 <class name="com.innroad.inncenter.tests.GSVerifyRoomConditionAndBulkUpdate"/> 
+		 <class name="com.innroad.inncenter.tests.GSVerifyArrivalDueScenarios"/>  
+		 <class name="com.innroad.inncenter.tests.GSVerifyArrivalDueAndAutoTaskForGroupReservation"/> 
+		 <class name="com.innroad.inncenter.tests.GSVerifyAutoTaskWhileScheduleIsInactiveOrDelete"/>
+		 <class name="com.innroad.inncenter.tests.GSVerifyReservationTask"/> 
+		<!--  To execute below script use client which has two property like autopay -->
+ 			<class name="com.innroad.inncenter.tests.VerifyNavigationGS"/>  
+ 			<class name="com.innroad.inncenter.tests.GSVerifyRoomClass"/> 	  
+ 			<class name="com.innroad.inncenter.tests.GSRoomStatusVerification"/>
+ 			<class name="com.innroad.inncenter.tests.GSVerifyQuickStats_RS_TL"/> 
+ 			  <class name="com.innroad.inncenter.tests.GSVerifyTaskForSplitReservation"/> 
+ 			  
+ 			   		 <!-- 		Not Required, No Test Case in this script, No Need to run
+ 		 <class name="com.innroad.inncenter.tests.GSRoomMaintenanceVerification"/>  	 
+ 		--> 
+		<!--  Not Completed Yet		
+		 <class name="com.innroad.inncenter.tests.GSVerifyTaskForSplitReservation"/>  -->
+ 			  
+		   	  <!-- CP Cases -->
+		   	  
+		   	  <class name="com.innroad.inncenter.tests.VerifyAutoCreationTasksforReservation" />  
+			  <class name="com.innroad.inncenter.tests.CPVerifyEarlyCheckoutMRB" /> 
+			     <class name="com.innroad.inncenter.tests.VerifyRoomStatusOnCheckInOut" /> 			                
+              <class name="com.innroad.inncenter.tests.VerifyArrivalDueONTapeChart" />  
+              <class name="com.innroad.inncenter.tests.VerifyAutoTaskAfterBulkCheckin" /> 
+              <class name="com.innroad.inncenter.tests.VerifyAutoTaskWithfrequencyNLogs" />
+              
+              <class name="com.innroad.inncenter.tests.CPVerifyCheckInWithPolicy" /> 
+              <class name="com.innroad.inncenter.tests.VerifyCheckInButtonOfFutureDateReservation" /> 
+              <class name="com.innroad.inncenter.tests.CPVerifyCheckinSuccessfully" /> 
+              <class name="com.innroad.inncenter.tests.CPVerifyCheckinSecondaryGuest" /> 
+              <class name="com.innroad.inncenter.tests.CPVerifyDirtyRoomCheckin" /> 
+			  <class name="com.innroad.inncenter.tests.CPDirtyStatusGroupReservation" />
+			  <class name="com.innroad.inncenter.tests.CPSplitReservationCheckin" />
+			  <class name="com.innroad.inncenter.tests.VerifyCheckOutWithNonZeroBalance" /> 
+			  <class name="com.innroad.inncenter.tests.VerifyAuthorizationMRBReservationCheckoutAll" /> 	
+              <!-- <class name="com.innroad.inncenter.tests.CPVerifyTaxforBundlePackageOnReservation" />  -->
+              <class name="com.innroad.inncenter.tests.CPAccountReservationCheckin" />
+                <class name="com.innroad.inncenter.tests.CPReservationMandatoryFields" /> 
+                 <class name="com.innroad.inncenter.tests.VerifyGenerateGuestStatementswitcherOnInCheckInCheckout" />
+                  <class name="com.innroad.inncenter.tests.VerifyGuestInforMRB" />
+                   <class name="com.innroad.inncenter.tests.VerifyPrimaryGuestPaySecondaryGuestChargesWhileCheckout" /> 	                  
+                    <class name="com.innroad.inncenter.tests.VerifySettlementPopupOnSecondGuestCheckOut" /> 
+                    <class name="com.innroad.inncenter.tests.CPDirtyRoomCheckinMRB" />	
+                     <class name="com.innroad.inncenter.tests.CPVerifyPrimaryGuestPayAllCharges" />
+                      <class name="com.innroad.inncenter.tests.CPVerifyPageLoadtime" /> 
+		                      <class name="com.innroad.inncenter.tests.CPVerifyDepositPolicyAppliedForAccount" />
+		                      <class name="com.innroad.inncenter.tests.CPVerifyUpdatedByField" />
+		                      <class name="com.innroad.inncenter.tests.CPCancelGuestStillAbletoNoShowOverAllReservation" />
+		                       <class name="com.innroad.inncenter.tests.CPVerifySecondGuestCancelAfterCheckinPrimaryGuest" />
+		                        <class name="com.innroad.inncenter.tests.CPVerifyCancellationPolicy" />
+		                        <class name="com.innroad.inncenter.tests.CPVerifyCheckinCheckoutCancelSecondGuestForDepartedStatus" /> 	         		 	  
+  								<class name="com.innroad.inncenter.tests.CPVerifyCheckinCheckoutCancelInhouseStatus" />
+              
+              <!-- VRBO Cases -->
+               <class name="com.innroad.inncenter.tests.VerifyBusXML" />	
+				 <class name="com.innroad.inncenter.tests.VerifyDerivedRateOnVrbo" />  
+	    		 <class name="com.innroad.inncenter.tests.VerifyDerivedRateOnVrboAfterUpdateBaseRate" />	  		
+		 		<class name="com.innroad.inncenter.tests.VerifyDerivedRateInactive" />	
+		 		 <class name="com.innroad.inncenter.tests.VerifyBookingRequestTaxs" />	
+		 		 	<class name="com.innroad.inncenter.tests.VerifyBookingRequestBlackOut" />
+		 		 	 <class name="com.innroad.inncenter.tests.VerifyNighlyRatesOnVrBo" />	
+		 		 	  <class name="com.innroad.inncenter.tests.VerifyTaxesAndFeeOnVrbo" /> 
+		 		 	  
+		 		 	   <!-- TAPECHART Cases -->
+		 		 	   <!-- Execute Cases of TapeChart from xml -->		 		 	   
+		 		 	   <!-- <suite-file path="tapechart.xml"/>	 -->
+		 		 	   
+		 		 	   <!--  	  	<class name="com.innroad.inncenter.tests.ExtendReduceSplitRoomReservationInTapeChart" /> 
+	  			    <class name="com.innroad.inncenter.tests.VerifyMinStayRule" />   
+	  			    -->
+	  		   <!--  <class name="com.innroad.inncenter.tests.RateV2BulkUpdateRatesAllInnCenterReservations" />  
+	  		   <class name="com.innroad.inncenter.tests.ExtendReduceSplitRoomReservationInTapeChart" /> -->
+	  			  
+	  	
+		 		 	    
+		 		 	     
+		 		 	        <!-- AIRBNB Cases -->
+		 		 	        <class name="com.innroad.inncenter.tests.VerifyAirbnbReservation" />   	
+							<class name="com.innroad.inncenter.tests.VerifyAirbnbReservationCheckout" />
+							
+							 <!-- Guest History Cases -->
+							 <class name="com.innroad.inncenter.tests.VerifyGuestHistoryAccount" />
+							 <!-- <class name="com.innroad.inncenter.tests.VerifyReportGuestHistory" /> -->
+							 
+						<!-- AirBNB -->	 							 
+							 	<!-- <class name="com.innroad.inncenter.tests.VerifyAirbnReservationbWithNoAvailability" />	
+			<class name="com.innroad.inncenter.tests.VerifyChangeAirbnbRoomClassInRes" />	-->
+			
+			<!-- VRBO -->
+			<!-- <class name="com.innroad.inncenter.tests.VerifyDistributiontakenout" />  
+		   <class name="com.innroad.inncenter.tests.VerifyBookingRequestOutOfOrder" />
+		<class name="com.innroad.inncenter.tests.VerifyBookingRequestBlackOut" /> 
+		<class name="com.innroad.inncenter.tests.VerifyBookingRequestOnUIWithTask" /> 
+		 <class name="com.innroad.inncenter.tests.VerifyBookingRequestNoAvailability" />
+	 	<class name="com.innroad.inncenter.tests.VerifyBookingRequestCardDeclined" />  
+	 <class name="com.innroad.inncenter.tests.VerifyBookingRequestTaxs" />	 
+	  <class name="com.innroad.inncenter.tests.VerifyBUSChangeStayDetails" /> 
+	      <class name="com.innroad.inncenter.tests.VerifyBUSChangeRoomClass" /> 
+	   <class name="com.innroad.inncenter.tests.VerifyBUSAddLongStay" />		 
+		   <class name="com.innroad.inncenter.tests.VerifyBUSChangeRatePlan" />	 
+		 	   <class name="com.innroad.inncenter.tests.VerifyBUSCheckoutReservation" />	
+		    <class name="com.innroad.inncenter.tests.VerifyAdjustChargeVrbo" /> 		 
+		  <class name="com.innroad.inncenter.tests.VerifyBUSAfterAddAdjustVoidAnTaxAndFee" />	 
+		  <class name="com.innroad.inncenter.tests.VerifyAdjustFeeWithPercentFeeExtraAdultChildOnVrbo" />	 	
+			 <class name="com.innroad.inncenter.tests.VerifyDerivedRateOnVrbo" />  
+	     <class name="com.innroad.inncenter.tests.VerifyDerivedRateOnVrboAfterUpdateBaseRate" /> 		
+		 	<class name="com.innroad.inncenter.tests.VerifyDerivedRateInactive" />	-->	
+		 <!--   <class name="com.innroad.inncenter.tests.VerifyDerivedRateOnVrboForOverRideCases" />
+		  	<class name="com.innroad.inncenter.tests.VerifyVrboReservationHavingChildAndAdultFee" />			 	
+			<class name="com.innroad.inncenter.tests.VerifyBusXML" />		    
+	  <class name="com.innroad.inncenter.tests.VerifyBusAfterChangePayment" />	
+		   <class name="com.innroad.inncenter.tests.VerifyEmailTriggersOnVerBoRes" />	
+		     <class name="com.innroad.inncenter.tests.VerifyTaxesAndFeeOnVrbo" />
+		 <class name="com.innroad.inncenter.tests.VerifyNighlyRatesOnVrBo" />  -->  
+	             
+		</classes>
+
+ 
+
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
+

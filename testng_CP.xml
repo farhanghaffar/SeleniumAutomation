@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="CentralparkSanitySuiteGS">
+
+	<test name="CentralparkSanityTestGS">
+		<parameter name="test_category" value="NonGS" />
+		<classes>
+ 		
+	<!-- Final Scripts of CP -->	  	 	  
+
+							<class name="com.innroad.inncenter.tests.VerifyRoomStatusOnCheckInOut" />
+                        <class name="com.innroad.inncenter.tests.VerifyAutoTaskAfterBulkCheckin" />
+                            <class name="com.innroad.inncenter.tests.VerifyAutoCreationTasksforReservation" />
+                            <class name="com.innroad.inncenter.tests.VerifyAutoTaskWithfrequencyNLogs" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyCheckInWithPolicy" /> 
+                            <class name="com.innroad.inncenter.tests.CPVerifyEarlyCheckoutMRB" />
+                            <class name="com.innroad.inncenter.tests.VerifyGenerateGuestStatementswitcherOnInCheckInCheckout" />
+                            <class name="com.innroad.inncenter.tests.VerifyCheckInButtonOfFutureDateReservation" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyCheckinSuccessfully" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyCheckinSecondaryGuest" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyDirtyRoomCheckin" />
+                            <class name="com.innroad.inncenter.tests.CPDirtyStatusGroupReservation" />
+                            <class name="com.innroad.inncenter.tests.CPSplitReservationCheckin" />
+                            <class name="com.innroad.inncenter.tests.VerifyCheckOutWithNonZeroBalance" />
+                            <class name="com.innroad.inncenter.tests.VerifyAuthorizationMRBReservationCheckoutAll" />
+                            <class name="com.innroad.inncenter.tests.CPAccountReservationCheckin" />
+                            <class name="com.innroad.inncenter.tests.CPReservationMandatoryFields" />
+                            <class name="com.innroad.inncenter.tests.VerifyGuestInforMRB" />
+                            <class name="com.innroad.inncenter.tests.VerifyPrimaryGuestPaySecondaryGuestChargesWhileCheckout" />
+                            <class name="com.innroad.inncenter.tests.VerifySettlementPopupOnSecondGuestCheckOut" />
+                            <class name="com.innroad.inncenter.tests.CPDirtyRoomCheckinMRB" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyPrimaryGuestPayAllCharges" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyPageLoadtime" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyDepositPolicyAppliedForAccount" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyUpdatedByField" />
+                            <class name="com.innroad.inncenter.tests.CPCancelGuestStillAbletoNoShowOverAllReservation" />
+                            <class name="com.innroad.inncenter.tests.CPVerifySecondGuestCancelAfterCheckinPrimaryGuest" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyCancellationPolicy" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyCheckinCheckoutCancelSecondGuestForDepartedStatus" />
+                            <class name="com.innroad.inncenter.tests.CPVerifyCheckinCheckoutCancelInhouseStatus" />	
+                            <class name="com.innroad.inncenter.tests.CPVerifyDirtyMessageForUnassignedRoomReservation" />
+                            
+   	</classes>
+
+
+
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CentralparkSanitySuiteReports">
+	
+	<test name="CentralparkSanitySuite">
+		<parameter name="test_category" value="NonGS" />
+			<classes>
+			  <class name="com.innroad.inncenter.tests.VerifyLayoutOfDailyFlashReport" />  
+			  <class name="com.innroad.inncenter.tests.VerifyDocumentTemplateFields" /> 
+			  <class name="com.innroad.inncenter.tests.VerifyMRBGuestRegistrationReport" />
+
+			  <class name="com.innroad.inncenter.tests.VerifyDocumentTemplateFieldsInEmail" />
+
+			
+      <!-- <class name="com.innroad.inncenter.tests.ReportsV2EntitlementsValidation"/>
+      <class name="com.innroad.inncenter.tests.ReportsV2HomePageValidation"/> -->
+     <!-- Naresh Report Scripts --> 
+    <!--
+      <class name="com.innroad.inncenter.tests.ReportsV2DailyFlashReportValidation"/>
+      <class name="com.innroad.inncenter.tests.ReportsV2DailyFlashReportPropertyStatistics"/>
+      <class name="com.innroad.inncenter.tests.ReportsV2LedgerBalancesReportValidation"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2RoomForecastReportValidation"/> -->
+	  
+<!-- 	  <class name="com.innroad.inncenter.tests.ReportsV2DailyFlashReportUI"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2DailyFlashAfterRunReportUI"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2LedgerBalancesUIValidation"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2LedgerBalancesSelectInputsUI"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2LedgerBalancesAdvancedInputs"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2RoomForecastUIValidation"/> 
+	  <class name="com.innroad.inncenter.tests.ReportsV2TransactionsReportUIValidationForReservationV2"/>
+	  
+	  <class name="com.innroad.inncenter.tests.ReportsV2LedgerBalancesReportValidationReservationV2"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2DailyFlashReportValidationReservationV2"/>
+	  <class name="com.innroad.inncenter.tests.ReportsV2RoomForecastReportValidationForReservationV2"/>
+      <class name="com.innroad.inncenter.tests.ReportsV2AdvancedDepositReportValidationReservationV2"/>
+      <class name="com.innroad.inncenter.tests.ReportsV2FolioBalanceReportValidationForReservationV2"/>	  
+	  <class name="com.innroad.inncenter.tests.ReportsV2TransactionsReportValidationForReservationV2"/> -->
+	  
+	<!--  <class name="com.innroad.inncenter.tests.ReportsV2FolioBalanceUIValidation"/>
+ 	 <class name="com.innroad.inncenter.tests.ReportsV2FolioBalanceReportValidation"/> -->
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+

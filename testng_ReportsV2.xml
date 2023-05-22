@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng_ReportsV2" parallel="classes" thread-count="2">
+  <test name="ReportsV2">
+    <classes>
+    
+ 	 
+      <!-- Final Script Net Sales -->
+
+      <class name="com.innroad.inncenter.tests.ReportV2DynamicDateRangeVerification"/>
+         <class name="com.innroad.inncenter.tests.ReportV2NetSalesReportRAVPARVerification"/> 
+      <class name="com.innroad.inncenter.tests.ReportV2NetSalesReportDataVerification"/> 
+          <class name="com.innroad.inncenter.tests.ReportV2NetSalesReportCorporateAccountVerification"/>
+          <class name="com.innroad.inncenter.tests.ReportsV2ReservationHistoryUI"/>   
+          <class name="com.innroad.inncenter.tests.ReportsV2ReservationHistoryOutPut"/>     
+           <class name="com.innroad.inncenter.tests.ReportsV2ReservationHistoryPayment"/> 
+           <class name="com.innroad.inncenter.tests.ReportsV2ReservationHistoryAirBnb"/>          
+             <class name="com.innroad.inncenter.tests.ReportsV2ReservationHistorySplitReservation"/>   
+             <class name="com.innroad.inncenter.tests.ReportsV2ReservationDetailsReport"/> 
+         <class name="com.innroad.inncenter.tests.ReportsV2ReservationHistoryUI"/>   
+
+
+     </classes>
+  </test> <!-- ReportsV2 -->
+</suite> <!-- CentralParkReportsV2 -->
